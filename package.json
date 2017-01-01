@@ -1,0 +1,25 @@
+{
+  "name": "escape-string",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/escapeString.js",
+  "typings": "dist/escapeString.d.ts",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riim/escape-string.git"
+  },
+  "author": "Dmitry Vibe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Riim/escape-string/issues"
+  },
+  "homepage": "https://github.com/Riim/escape-string#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "typescript": "^2.1.4"
+  }
+}
