@@ -15,8 +15,8 @@ import escapeString from 'escape-string';
 // or `var escapeString = require('escape-string').default;`
 
 escapeString(` \\ ' " \r \n `);
-// => ' \\\\ \\' \\" \\r \\n '
+// => ` \\\\ \\' \\" \\r \\n `
 
-Function(`return '${ escapeString(` \\ ' " \n \r `) }';`)();
-// => ' \\ ' " \r \n '
+Function(`return '${ escapeString(` \\ ' " \r \n `) }';`)();
+// => ` \\ ' " \r \n `
 ```

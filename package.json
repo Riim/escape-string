@@ -1,6 +1,6 @@
 {
   "name": "escape-string",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/escapeString.js",
   "typings": "dist/escapeString.d.ts",
