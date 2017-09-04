@@ -7,6 +7,6 @@ charToEscapedMap['"'] = '\\"';
 charToEscapedMap['\r'] = '\\r';
 charToEscapedMap['\n'] = '\\n';
 
-export default function escapeString(str: string): string {
-	return reEscapableChars.test(str) ? str.replace(reEscapableChars, chr => charToEscapedMap[chr]) : str;
+export function escapeString(str: string): string {
+	return reEscapableChars.test(str) ? str.replace(reEscapableChars, (chr) => charToEscapedMap[chr]) : str;
 }
